@@ -1,0 +1,52 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+.animated-header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    animation: header-animation 5s infinite alternate;
+}
+
+@keyframes header-animation {
+    from {
+        background: linear-gradient(90deg, #007bff, #6610f2);
+    }
+    to {
+        background: linear-gradient(90deg, #6610f2, #007bff);
+    }
+}
+.nav-icon {
+    font-size: 24px; /* Icon size */
+    color: white; /* Icon color */
+    margin: 0 10px; /* Spacing between icons */
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: #aaa;
+}
+
+/* Button Hover Effects */
+.btn-success:hover,
+.btn-primary:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+/* Table Styling */
+.table-bordered th,
+.table-bordered td {
+    text-align: center;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
